@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 100px;
+    /* background-color: aqua; */
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 150px;
+}
+.logo{
+    background-image: url(asssets/cropped-Skills-Development-Hub-SM-Logos-2.png);
+    height: 60px;
+    width: 100%;
+    background-size: cover;
+}
+.contactus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactus li{
+    display: inline;
+    margin: 10px;
+    padding-top: 15px;    
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    margin: 100p;
+
+}
+.left{
+    margin: 75px;
+}
+.right img{
+    width: 600px;
+    margin: 100px;
+    
+
+}
+.right{
+
+}
+.main2{
+    display: flex;
+    align-items: center;
+    margin: 100px;
+}
+.left2{
+    margin: 100px;
+}
+.right2{
+    margin-right: 200px;
+}
+.main3{
+    display: flex;
+    align-items: center;
+    margin: 100px;
+}
+
+.subleft{
+    display: flex;
+    margin: 50px;
+}
+.subright{
+    display: flex;
+    margin: 50px;
+}
+.main4 h2{
+    text-align: center;
+}
+.tags{
+    text-align: center;
+}
+.main4{
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: auto;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.school{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px 0;
+}
+.Students{
+    text-align: center;
+
+
+}
+.Students h3{
+    font-size: 24px;
+    color: #007bff;
+    margin: 5px 0;
+}
+.Students p{
+    font-size: 14px;
+    color: #666;
+}
+@media(max-width:600px) {
+  .main4{
+    flex-direction: column;
+    gap: 15px;
+  }  
+}
+footer{
+    background-color: #007bff;
+    width: 100%;
+    height: 70vh;
+    /* display:flex ; */
+    
+}
+.footmain{
+    display: flex;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    /* border: black solid; */
+}
+.footeright{
+    width: 60vh;
+
+    
+}
+.footeright img{
+    width: 100px;
+    margin-bottom: 50px;
+    margin-right: 250px;
+}
+li{
+    list-style: none;
+}
+.footerleft{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.subleftfooter{
+
+}
+.para{
+    text-align: center;
+}
